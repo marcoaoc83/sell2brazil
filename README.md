@@ -7,6 +7,36 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+
+## Tech Specification
+
+- Laravel 7
+- MySQL/MariaDB
+- PHPUnit Test Case/Test Coverage
+
+
+## Installation
+
+- `https://github.com/marcoaoc83/sell2brazil`
+- `composer install`
+- `cp .env.example .env`
+- Update `.env` and set your database credentials
+- `php artisan key:generate`
+- `php artisan migrate`
+- `npm install`
+- `npm run dev`
+- `php artisan serve`
+
+## Unit Test
+
+#### run PHPUnit
+
+```bash
+# run PHPUnit all test cases
+vendor/bin/phpunit
+# or Feature test only
+vendor/bin/phpunit --testsuite Feature
+```
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
